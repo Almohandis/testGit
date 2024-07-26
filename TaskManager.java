@@ -18,7 +18,7 @@ public class TaskManager {
         if (index >= 0 && index < tasks.size()) {
             tasks.remove(index);
         } else {
-            System.out.println("Invalid task number.");
+            System.out.println("Invalid task num ber.");
         }
     }
 

@@ -1,4 +1,4 @@
-package com.example;
+package tasks;
 
 public class Task {
     private String description;

@@ -38,10 +38,10 @@ public class App {
     }
     // This is Jimmy's comment
     private static void addTask() {
-        System.out.print("Enter task description now:");
+        System.out.print("Enter task el description b2a : ");
         String description = scanner.nextLine();
         taskManager.addTask(description);
-        System.out.println("Task added successfully");
+        System.out.println("Task added yaa3m .");
     }
 
     private static void viewTasks() {

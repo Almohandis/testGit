@@ -12,7 +12,7 @@ public class App {
             System.out.println("1. Add a task from here, if you want of course");
             System.out.println("2. View available tasks");
             System.out.println("3. Remove a current task");
-            System.out.println("4. Exit the application, you son of a ...");
+            System.out.println("4. Exit the application.........");
             System.out.print("Choose an option from the list: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline

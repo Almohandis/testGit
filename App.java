@@ -8,12 +8,12 @@ public class App {
   
     public static void main(String[] args) {
         while (true) {
-            System.out.println("\nTo-Do List Application");
-            System.out.println("1. Add a task");
-            System.out.println("2. View tasks");
-            System.out.println("3. Remove a task");
-            System.out.println("4. Exit");
-            System.out.print("Choose an option: ");
+            System.out.println("\nTo-Do List Application:   ");
+            System.out.println("1. Add a task from here");
+            System.out.println("2. View available tasks");
+            System.out.println("3. Remove a current task");
+            System.out.println("4. Exit the application");
+            System.out.print("Choose an option from the list: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
             //just stupid comment
@@ -29,28 +29,28 @@ public class App {
                     removeTask();
                     break;
                 case 4:
-                    System.out.println("Exiting application.");
+                    System.out.println("Exit application!");
                     return;
                 default:
-                    System.out.println("Invalid choice. Please try again.");
+                    System.out.println("Invalid choice, please try again: ");
             }
         }
     }
     // This is Jimmy's comment
     private static void addTask() {
-        System.out.print("Enter task description: ");
+        System.out.print("Enter task description now:");
         String description = scanner.nextLine();
         taskManager.addTask(description);
-        System.out.println("Task added.");
+        System.out.println("Task added successfully");
     }
 
     private static void viewTasks() {
-        System.out.println("\nTasks:");
+        System.out.println("\nAvailable tks:");
         taskManager.viewTasks();
     }
 
     private static void removeTask() {
-        System.out.print("Enter task number to remove: ");
+        System.out.print("Enter tsk nmber to remove: ");
         int taskNumber = scanner.nextInt();
         taskManager.removeTask(taskNumber - 1);
         System.out.println("Task removed.");

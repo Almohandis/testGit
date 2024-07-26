@@ -8,11 +8,11 @@ public class App {
   
     public static void main(String[] args) {
         while (true) {
-            System.out.println("\nTo-Do List Application:   ");
-            System.out.println("1. Add a task from here");
+            System.out.println("\nTo-Do List Application: ..........  ");
+            System.out.println("1. Add a task from here.........");
             System.out.println("2. View available tasks");
             System.out.println("3. Remove a current task");
-            System.out.println("4. Exit the application");
+            System.out.println("4. Exit the application.........");
             System.out.print("Choose an option from the list: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline

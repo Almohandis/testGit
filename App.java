@@ -35,7 +35,7 @@ public class App {
                     return;
                 default:
 
-                    System.out.println("Invalid choice, please try :)))))))))))) again: ");
+                    System.out.println("wrong choice, please try again: ");
 
             }
         }

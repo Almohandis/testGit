@@ -35,7 +35,7 @@ public class App {
             }
         }
     }
-
+    // This is Jimmy's comment
     private static void addTask() {
         System.out.print("Enter task description: ");
         String description = scanner.nextLine();

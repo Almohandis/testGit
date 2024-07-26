@@ -29,13 +29,16 @@ public class App {
                     removeTask();
                     break;
                 case 4:
+                    System.out.println("A new line");
                     System.out.println("Exit application!");
+                    System.out.println("A new line 2");
                     return;
                 default:
                     System.out.println("Invalid choice, please try again: ");
             }
         }
     }
+
     // This is Jimmy's comment
     private static void addTask() {
         System.out.print("Enter task el description b2a : ");
@@ -44,11 +47,13 @@ public class App {
         System.out.println("Task added yaa3m .");
     }
 
+
     private static void viewTasks() {
         System.out.println("\nAvailable tks:");
         taskManager.viewTasks();
     }
 
+    
     private static void removeTask() {
         System.out.print("Enter tsk nmber to remove: ");
         int taskNumber = scanner.nextInt();

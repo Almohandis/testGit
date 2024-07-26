@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
     private static TaskManager taskManager = new TaskManager();
     private static Scanner scanner = new Scanner(System.in);
-
+  
     public static void main(String[] args) {
         while (true) {
             System.out.println("\nTo-Do List Application");

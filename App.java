@@ -16,7 +16,8 @@ public class App {
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
-
+            //just stupid comment
+            
             switch (choice) {
                 case 1:
                     addTask();

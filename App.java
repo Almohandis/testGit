@@ -29,19 +29,19 @@ public class App {
                     removeTask();
                     break;
                 case 4:
-                    System.out.println("Exiting application.");
+                    System.out.println("Exit application.");
                     return;
                 default:
-                    System.out.println("Invalid choice. Please try again.");
+                    System.out.println("wrong choice. Please try again.");
             }
         }
     }
 
     private static void addTask() {
-        System.out.print("Enter task description: ");
+        System.out.print("Enter task el description b2a : ");
         String description = scanner.nextLine();
         taskManager.addTask(description);
-        System.out.println("Task added.");
+        System.out.println("Task added yaa3m .");
     }
 
     private static void viewTasks() {

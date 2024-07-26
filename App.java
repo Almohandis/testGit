@@ -18,7 +18,7 @@ public class App {
             scanner.nextLine(); // Consume newline
             //just stupid comment
             
-            switch (choice) {
+            switch (choice) {//
                 case 1:
                     addTask();
                     break;

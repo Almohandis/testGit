@@ -1,7 +1,7 @@
 package tasks;
 
 public class Task {
-    // Task description
+    // Task description 
     private String description;
 
     // Task constructor
